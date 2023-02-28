@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgba(103, 160, 207, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(253, 253, 253);
+    margin: 40px;
+    box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
+    border-left: 50px solid #fff;
+    border-right: 50 px solid #fff;
+}
+
+.contenedor .top {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.contenedor .top .imgx {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor .top .imgx .box {
+    position: relative;
+    width: 20%;
+    min-width: 50%;
+    border-radius: 10%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.contenedor .top .imgx .box .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .top .textodeperfil{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor .top .textodeperfil h3
+{
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+.contenedor .top .textodeperfil h3 span
+{
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+
+.contenedor .BoxContenedor {
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+
+.contenedor .BoxContenedor h3 
+{
+    border-left: 3px solid black;
+    padding-left: 8px;
+    line-height: 1em;
+    color: black;
+    letter-spacing: 0.1;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contenedor .BoxContenedor ul
+{
+    position: relative;
+    margin: 10px 0;
+
+}
+
+.contenedor .BoxContenedor ul li 
+{
+    margin: 20px 0;
+    line-height: 1em;
+    color:black;
+    display: flex;
+   
+}
+
+
+.contenedor .BoxContenedor ul.academico li
+{
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+h5 {
+    color: rgb(109, 137, 231);
+}
+
+h4 {
+    color: black;
+    font-weight: 500;
+    margin:4px 0;
+}
+
+h6 {
+    color: rgb(37, 36, 36);
+    font-weight: 300;
+    font-size: 1em;
+}
+
+section i{
+    font-size: 15px;
+    padding: 4px;
+    margin: 4px;
+    
+}
+
+.contenedor .BoxContenedor ul.Trabajo li
+{
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+h5 {
+    color: rgb(109, 137, 231);
+}
+
+/*h4 {
+    color: black;
+    font-weight: 500;
+    margin:4px 0;
+    text-decoration: none;
+}*/
+
+
+.gimnasio {
+    text-decoration: none;
+
+}
+h6 {
+    color: rgb(37, 36, 36);
+    font-weight: 300;
+    font-size: 1em;
+}
+
+
